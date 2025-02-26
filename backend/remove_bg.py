@@ -1,7 +1,7 @@
 import requests
 import os
 
-REMOVE_BG_API_KEY = "zJfZdKwpQvZ8n5f556qRpq1z"
+REMOVE_BG_API_KEY = "api key"
 
 def remove_background(image_path):
     print(f"Removing background for {image_path}")
