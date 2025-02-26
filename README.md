@@ -96,7 +96,7 @@ POST /apply_background
 2. **Fixing Submodule Issues in Git:** Accidentally adding the frontend folder as a submodule caused problems in tracking files correctly.
 ---
 
-## Future Improvements
+## Improvements
 - **Drag-and-drop functionality for images.**
 - **Better UI/UX with transitions.**
 - **Dark mode toggle.**
