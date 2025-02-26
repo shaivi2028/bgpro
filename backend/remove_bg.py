@@ -4,7 +4,7 @@ import os
 REMOVE_BG_API_KEY = "zJfZdKwpQvZ8n5f556qRpq1z"
 
 def remove_background(image_path):
-    print(f"Removing background for {image_path}")  # Debug log
+    print(f"Removing background for {image_path}")
     
     with open(image_path, "rb") as file:
         response = requests.post(
@@ -18,8 +18,8 @@ def remove_background(image_path):
         output_path = image_path.replace(".jpg", "_no_bg.png")
         with open(output_path, "wb") as out:
             out.write(response.content)
-        print(f"Processed image saved at {output_path}")  # Debug log
+        print(f"Processed image saved at {output_path}")
         return output_path
     else:
-        print(f"Error in background removal: {response.text}")  # Debug log
+        print(f"Error in background removal: {response.text}")
         return None
