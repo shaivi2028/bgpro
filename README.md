@@ -3,6 +3,7 @@
 BGPro is a simple web application that allows users to remove the background from an image and a given choice of backgrounds select one and apply. The project consists of a Flask backend that processes the images and a React frontend that provides an interactive user interface.
 
 ---
+![Demo Video](assets/demo.mp4)
 
 ## Features
 - Upload an image and remove its background.
